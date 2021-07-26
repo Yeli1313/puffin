@@ -74,6 +74,14 @@ Since app have different resolutions, you need to provide app icons in different
 4. At the end, it will your email id to send app icon files. ( Note: you can untick the newsletter )
 5. Zip file will be sent to your email id
 6. Download that zip file and upload in mobile app config in SuperAdmin V2.
+   
+<img src="/img/icon-folder.png" alt="Icon folder Structure" width="200"/>
+
+
+:::danger Attention
+You need to attach the ZIP exactly as how you download from the makeappicon. Avoid creating your own folder structure, your build generation would be failed. 
+:::
+
 
 ### Onboarding Images
 This are getting started images before user signup. You can use this to educate on what your app can do or explaining other important features of the app. In the below image red higlighted section. 
@@ -92,7 +100,7 @@ The top text in the tool. It is always your app name.
 - Color code of that text: default is white. Suggested to keep white if your primary color is dark. 
 - Default font: Montserrat
 
-### Main Action bottom navbar Icon
+### Main Action Icon (called as Sell Icon)
 The main action you want to make user to do often. you can consider this as main call to action which will be always seen in the botton navbar. A simple + would be doable but if you want to go more than that, you can share that. 
 <img src="/img/navbar.png" alt="navbar" width="300"/>
 

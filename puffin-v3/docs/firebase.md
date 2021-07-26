@@ -27,3 +27,16 @@ Firebase done a good job of explaining each features through a short video on ev
 3. Add TradlyTeam email sent to you as owner ![fb-owner](/img/fb-owner.png)
 
 Note: Blaze plan is mandatory to deploy push notification for chat messages
+
+
+
+## Downloading Android JSON 
+Downloading Android Plist Json from Firebase. Visit Project Settings > General > Find the JSON file in the body section. See the blue button as per the below screenshots. 
+
+<img src="/img/firebase-json1.png" alt="Downloading Android Plist Json from Firebase" width="400"/>
+
+<img src="/img/firebase-json2.png" alt="Downloading Android Plist Json from Firebase" width="400"/>
+
+<img src="/img/firebase-json3.png" alt="Downloading Android Plist Json from Firebase" width="400"/>
+
+
