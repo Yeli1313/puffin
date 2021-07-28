@@ -36,6 +36,10 @@ You can create listings from this section.
 5. Offer Percent: Optional: If you are a marketplace platform with products having discounts, you can use this feature. It shows a slashed price in the user end app. 
  
 
+
+### Video: Configuring Listings
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HzTNKhxQD4g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Listing Categories
 
 if you have read from about the 
@@ -90,6 +94,7 @@ When you configure an attribute for 4th level , the attribute is only available 
 ## Approve Listing
 
 ![Approve Listings](/img/approve-listings.png)
+
 To be on control with the quality/business logics of your platform is “Approval” feature. You can approve or disapprove
 - You will find a small count label based notification next to that menu. That conveys the number of listings pending to be actioned
 - You can approve or disapprove listings after use posted. 

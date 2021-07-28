@@ -11,8 +11,10 @@ TradlyPlatform uses two types of Stripe features
 URL : https://stripe.com/global
 
 
-## How our System process flow connected with Stripe Connect? 
-We are publishing the flow chart soon. 
+### Video: Configuring Stripe
+See how to configure stripe for your marketplace. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s5miuwJRR-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## How payment and payout works?
 Taking Australia as example. [Refer pricing](https://stripe.com/au/pricing)

@@ -22,9 +22,12 @@ export const Highlight = ({children, color}) => (
 
 
 :::important
-- This documentation is for Validation and Growth Package subscribers and not meant for Enterprise/Gov
-- Read about this features in details [here](appfeatures.md) before reading on whether it is customisable.
+- This documentation is for Growth Package subscribers and not meant for Custom Enterprise/Gov
 :::
+
+### Video: Configuring Stripe
+See how to configure stripe for your marketplace. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BQdBxFRx6oQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ** Undestand the Highlights ** 
 - <Highlight color="#25c2a0"> Green color means customisable through Superadmin Panel.  </Highlight> 

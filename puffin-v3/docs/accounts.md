@@ -11,6 +11,9 @@ When a user register in the app, he will be optionally able to create accounts b
 - For a property marketplace platform like Airbnb, it is called as Tenant Profile. 
 We call them generally as accounts and it may vary based on your business model. As a functional element it is used to create accounts. 
 
+### Video: Configuring Accounts
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T1sN1C9qUSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 #### Account Attributes
 You can create additional attributes(fields) of information to be collected when user open an account.
@@ -43,8 +46,7 @@ So you can have multiple account types based on user persona. You will see throu
 By default, account creations fields are only image, Name, Descriptions. All other fields are created via attributes.
 :::
 
-Latest video 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T1sN1C9qUSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Creating Account Category
 ![Add Account Category](/img/add-accounts-category.png)

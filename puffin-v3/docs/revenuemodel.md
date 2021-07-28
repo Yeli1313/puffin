@@ -23,6 +23,9 @@ Available for clients based in stripe connected supported countries. Here is how
 
 <img src="/img/tradly-commission-model1.png" alt="commission-revenue" width="800"/>
 
+### Video: Configuring Revenue Model
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zyVf4t5U_GE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Classified style featured ads
 Available on home page and possibility in other pages. And it is possible for all countries with Stripe Payments or other 
 [custom payments method mentioned here](https://portal.tradly.app/docs/paymentgateways)

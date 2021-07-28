@@ -13,7 +13,7 @@ sidebar_label: Other Solutions
 - Goods Donation marketplace
 - Money Donation marketplace (Crowd donation)
 - Social feedback / Crowdsourcing ideas
-- Cooperating marketplaces
+- Cooperative marketplaces
 - Employee/Society/Community based marketplaces
 - Farmers Marketplace (Connecting farmers with direct buyers of agriculture products)
 - 

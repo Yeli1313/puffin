@@ -27,6 +27,12 @@ One of the tough and lot of operation work needed in this approach. Operational 
 
 There are different types of delivery methods we provide. One of the emerging mode of user behaviour after covid is order online and pick up from store. 
 
+### Video: Configuring Shipping/Delivery Methods 
+Watch from the 11th minutes. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zyVf4t5U_GE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## ORDER ONLINE > PICK UP 
 Your sellers can choose if they want to allow any or both of 
 - Pickup 
@@ -56,6 +62,7 @@ The return flow is simple and straightforward.
 
 **Return Initiate: **
 When a customer wants to make a return for any reason, he can initiate it by going to the order detail page and selecting “Custom Return initiation” option.
+
 **Return Restriction: **
 The merchant can decide the return policy for the product. The return policy will govern if the product is returnable or not. The return policy may include a "No returns" product, "n Day returns", or "# Days replacement only".
 

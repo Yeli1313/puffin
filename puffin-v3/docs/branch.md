@@ -7,6 +7,11 @@ Branch Metrics provides solutions that unify user measurement across different d
 
 Features like Invite your features, Marketing tracking links generations, Deeplinks content views, etc in our app are done using Branch technologies. Hence it is mandatory to have this extensions activated if you want to use those features. 
 
+### Video: Configuring Branch
+See how to configure stripe for your marketplace. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TAaEknMCemQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Requirements
 1. Signup for a free account here [Branch Signup](https://branch.io/).
 2. Navigate to [profile section] (https://dashboard.branch.io/account-settings/profile). 

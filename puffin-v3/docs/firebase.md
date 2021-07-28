@@ -13,6 +13,11 @@ Having a glance the URL : https://firebase.google.com/ can tell you every list o
 
 Firebase done a good job of explaining each features through a short video on every page you navigate, so you will be educated if this is the first time you are using Firebase.
 
+### Video: Configuring Firebase
+See how to configure stripe for your marketplace. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZyXP4BoVZr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Step by Step
 
 1. Go to [Firebase](https://firebase.google.com/?utm_source=tradly-platform&utm_campaign=portal&utm_medium=portal) 

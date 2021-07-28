@@ -17,7 +17,7 @@ Assuming a marketplace named 23mercado
 
 <img src="/img/dlocal1.png" alt="navbar" width="900"/>
 
-Request in our slack channel for the pricing or directly reach out to them https://dlocal.com/
+Request in our support portal for the pricing or directly reach out to them https://dlocal.com/
 
 ## Countries they serve
 LATAM
