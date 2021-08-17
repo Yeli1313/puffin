@@ -7,9 +7,17 @@ sidebar_label: Playstore
 There are few things that need to be done from your side for launch, prelaunch, and update of the app. 
 
 ## Checklist
-- [ ] Playstore access to us
-- [ ] Keystore config to us
-- [ ] Below steps for prelaunch, launch, and update
+1. Playstore access to tech email 
+2. Keystore config to be updated in superadmin (Native Integrations > Playstore)
+3. App Name (Mobile App Config)
+4. App primary color (Mobile App Config)
+5. App Secondary color (if you want to have gradiant look)
+6. Google json to be uploaded (Mobile App Config)
+7. Splash icon (Mobile App Config)
+8. Android icons Zip file (Mobile App Config)
+9. Notification icon (Native Integrations > Playstore)
+10. Branch details (key, domain link) (Native Integrations > Branch)
+
 
 ### Keystore Config
 When publishing an app to Google Play, we should also opt in to Play App Signing. 
@@ -23,6 +31,10 @@ https://developer.android.com/studio/publish/app-signing#sign-apk
 - Create App 
 - Store Listing information 
 - App Content
+
+## Video: App content setup
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rGusFO9_Ias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Create App
@@ -45,13 +57,15 @@ Fill in all the information on the play store create app section
 - Input the countries your app needs to be published and shown. If you have selected the US as the available countries, any play store users who have not registered under the US country will not be eligible to download this app. 
 
 
+
+
 ### App Content 
 1. Privacy Policy URL (Privacy URL of your business hosted on your website. A simple HTML would be enough) 
 2. App Access
-1. As your apps have login functionality that needs users to like an item, follow the store, buy items, etc. We need to provide one access for Google to test this functionality to see whether everything looks legally okay for users. 
+-  As your apps have login functionality that needs users to like an item, follow the store, buy items, etc. We need to provide one access for Google to test this functionality to see whether everything looks legally okay for users. 
 3. Ads: If your product is going to have ads inside the app, you need to explicitly mention them to the users. 
 4. Target Audience
-1. Select here the appropriate age group your app is targeted. The objective for google is to make sure your app doesn’t go to children or other age groups if they are not planned to be. So they require this informations upfront. 
+-  Select here the appropriate age group your app is targeted. The objective for google is to make sure your app doesn’t go to children or other age groups if they are not planned to be. So they require this informations upfront. 
 5. Content Rating
 After or before providing the AAB, you need to do this step. As per Google, it will be used to 
 Your rating will be used to:
@@ -90,13 +104,14 @@ https://support.google.com/googleplay/android-developer/answer/9859152?hl=en
 Whenever you receive an email or see an app console with any warnings about app updates, read the information carefully. If you are not sure ask us. 
 :::
 
-## Video Explanation except for app content setup
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rGusFO9_Ias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## On Update
 Visit your play store https://play.google.com/console/ and do the following steps to update your apps
+
+### Video: Updating apps
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MYmICW87OZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **1. Go to Production**
 

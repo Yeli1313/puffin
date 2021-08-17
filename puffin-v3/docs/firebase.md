@@ -44,4 +44,43 @@ Downloading Android Plist Json from Firebase. Visit Project Settings > General >
 
 <img src="/img/firebase-json3.png" alt="Downloading Android Plist Json from Firebase" width="400"/>
 
+## Applying Firebase Rules
 
+Read below on how to create Realtime Database and apply realtime database rules.
+
+1. Navigate to your firebase project on the Firebase console and select Realtime Database under Build section from left menu.
+ <img src="/img/firebase-rules1.png" alt="Setting up firebase rules" width="400"/>
+3. Click "Create Database"
+ <img src="/img/firebase-rules2.png" alt="Setting up firebase rules" width="600"/>
+
+4. Select desired storage location which is close to your country and click 'Next'.
+ <img src="/img/firebase-rules3.png" alt="Setting up firebase rules" width="600"/>
+ 
+5. Leave it in Locked Mode, click Enable.
+ <img src="/img/firebase-rules4.png" alt="Setting up firebase rules" width="600"/>
+
+6. Great! You have created Realtime Database successfully. Now let’s apply database rules. Select Rules tab and copy-paste below given rules and click Publish
+
+```
+{
+  "rules": {
+  "$env":{
+      "users":{
+         "$uid": 
+         { 
+           ".read": "auth != null"
+         },
+         ".write":"auth != null"       
+  },
+  "chats":{
+   "$chatroom_id":{
+    ".read":"auth != null && root.child($env+'/chats/'+$chatroom_id+'/users/'+auth.uid).exists()",
+    ".write": "auth != null"
+   }
+  }
+   }
+}
+}
+```
+
+<img src="/img/firebase-rules5.png" alt="Setting up firebase rules" width="800"/>

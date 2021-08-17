@@ -6,9 +6,20 @@ sidebar_label: Appstore
 Here is the list of steps you need to do in AppStore before the release, steps to update the app, etc
 
 ## Checklist
-- [ ] Appstore access to us
-- [ ] TeamID
-- [ ] Below steps for prelaunch, launch and update
+All the below to be uploaded / added in SuperAdmin
+1. Create Provisioning Certificates as per below documentation
+2. Update Certificate password 
+3. Update Profile (Native integrations > Appstore)
+4. Update Bundle ID (Native integrations > Appstore)
+5. Access of Appstore to Tech Email (Ask the team for the emailID)
+6. Firebase Plist (Documentation coming soon)
+7. Branch.io integration Details to update (Native integrations > Branch)
+8. Push Key needs to updated in firebase console (Documentation coming soon)
+9. App Icon (Mobile App Config)
+10. Splash image (Mobile App Config)
+11. Onboarding (Mobile App Config)
+12. Theme color (Mobile App Config)
+
   
 Pre-requisite 
 - Decide whether you want as an individual licence or Organization
@@ -154,6 +165,10 @@ It has few main steps
 
 ## FIRST Release
 Once all is good with the testing, you can go ahead and set up a release. 
+
+<img src="/img/appstore1.png" alt="navbar" width="700"/>
+<img src="/img/appstore2.png" alt="navbar" width="700"/>
+
 - Create a new version 
 :::warning Version Number
 The version number is shown on the App Store and should match the one we used in Xcode.
