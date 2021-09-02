@@ -44,12 +44,12 @@ English Phone Language
 - [ ] Activate Pickup and Delivery options @mthahaseen 
 
 ### 3rd Party
-- [ ] Branch setup for URL shortening,  @jk-istrata 
-- [ ] Firebase cloud functions: for both projects @mthahaseen 
-- [ ] Stripe Connect config: Stripe @mthahaseen 
-- [ ] Redirection URI in Stripe @mthahaseen 
-- [ ] Email Verification @jk-istrata 
-- [ ] Domain Verification @jk-istrata 
+- [ ] Branch setup for URL shortening,  
+- [ ] Firebase cloud functions: for both projects 
+- [ ] Stripe Connect config: Stripe 
+- [ ] Redirection URI in Stripe 
+- [ ] Email Verification 
+- [ ] Domain Verification 
 - [ ] Emails (Welcome and OTP Email html content) 
 
 

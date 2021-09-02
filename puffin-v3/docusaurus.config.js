@@ -8,6 +8,8 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
   organizationName: 'TRADLY-PLATFORM', // Usually your GitHub org/user name.
+  trailingSlash: false,
+  USE_SSH: true,
   projectName: 'puffin', // Usually your repo name.
   themeConfig: {
     googleAnalytics: {

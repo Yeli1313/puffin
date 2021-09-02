@@ -7,20 +7,20 @@ Here is the list of steps you need to do in AppStore before the release, steps t
 
 ## Checklist
 All the below to be uploaded / added in SuperAdmin
-1. Create Provisioning Certificates as per below documentation
-2. Update Certificate password 
+1. [Create Provisioning Certificates](appstore#creating-provisioning-profile)
+2. Update Certificate password (Native integrations > Appstore)
 3. Update Profile (Native integrations > Appstore)
 4. Update Bundle ID (Native integrations > Appstore)
 5. Access of Appstore to Tech Email (Ask the team for the emailID)
-6. Firebase Plist (Documentation coming soon)
-7. Branch.io integration Details to update (Native integrations > Branch)
-8. Push Key needs to updated in firebase console (Documentation coming soon)
-9. App Icon (Mobile App Config)
-10. Splash image (Mobile App Config)
-11. Onboarding (Mobile App Config)
-12. Theme color (Mobile App Config)
+6. [Download Firebase Plist and update](appstore#download-firebase-plist) (Native integrations > Appstore)
+7. [Branch.io integration Details to update](branch.md) (Native integrations > Branch)
+8. [Push Key needs to updated in firebase console](appstore#uploading-push-key-firebase-console)
+9. App Icon (under Mobile App Config)
+10. Splash image (under Mobile App Config)
+11. Onboarding (under Mobile App Config)
+12. Theme color (under Mobile App Config)
 
-  
+
 Pre-requisite 
 - Decide whether you want as an individual licence or Organization
 - Organisation level license provides more benefits in terms of access management (Especially creating provisioning certificates)
@@ -158,6 +158,33 @@ It has few main steps
 3. Select ‘Membership’ on Side Menu
 4. Please share that ‘Team ID’
 
+
+
+
+## Uploading Push Key Firebase Console
+
+1. Go to https://console.firebase.google.com/
+2. Select your firebase project
+3. On Top Left, Click 'Settings' Icon near Project Overview and then Click 'Project Settings'
+4. Select ‘Cloud Messing’ on navbar
+5. Under iOS app configuration, Click 'Upload Button' under 'APNs Authentication Key section'
+6. Upload push key (.p8) file generated on this section [https://portal.tradly.app/docs/appstore#creating-push-key]
+7. Enter Key ID (https://portal.tradly.app/docs/appstore#key-id )
+8. Enter Team ID (https://portal.tradly.app/docs/appstore#team-id )
+9. Upload it
+If it is uploaded without any error, Push key for your project has been successfully configured.
+
+## Download Firebase Plist 
+
+1. Go to https://console.firebase.google.com/
+2. Select your project (You might have only one project)
+3. On Top Left, Click 'Settings' Icon near Project Overview and then Click 'Project Settings'
+4. Under General Tab, Go to ‘Your apps’ section
+5. Please select 'iOS app'
+6. Click button named 'GoogleService-Info.plist'
+7. It will download the Plist file into your system
+8. You have to upload this in super admin (Native integrations > Appstore )
+Make sure you see a green labeled notification that it is saved successffuly. 
 
 ## Appstore Management 
 - When the team has access to your Appstore, we will directly upload the app(IPA) to your Testflight 

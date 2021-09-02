@@ -43,7 +43,7 @@ module.exports = {
   mySidebar: {
     Introduction: ['introduction','overview', 'tradlyecosystem', 'commerce-definitions','support','FAQ' ],
     Setup: ['checklist','deployment','appcustomisation','testingapp','domain','appstore','playstore','website','email','pushnotification'],
-    Blocks: ['accounts','authsystem','banners','collection','currency','chat','deeplink','delivery','feed','language','listings','location','notification','order','paymentgateways','revenuemodel','review-ratings','search','subscription','other-blocks'],
+    'Feature Blocks': ['accounts','authsystem','banners','collection','currency','chat','deeplink','delivery','feed','language','listings','location','notification','order','paymentgateways','revenuemodel','review-ratings','search','subscription','other-blocks'],
     'Integrations': ['integrations-overview', 'stripe-onboarding','stripe', 'branch','dlocal','facebookapp','firebase', 'ga','moengage' ,'karix','twilio','google-maps'],
     'Solution Guide': ['education', 'energy', 'food', 'othersolutions'],
     Changelog: ['changelog-api','changelog-ios','changelog-android'],
